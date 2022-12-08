@@ -4,6 +4,10 @@ import streamlit as st
 import math
 import plotly.express as px
 from PIL import Image
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
 st.title("🏠 House Price Prediction App Using Random Forest")
 st.markdown("This app will help you to predict house price on 18 states in the U.S. based on realtor.com dataset")

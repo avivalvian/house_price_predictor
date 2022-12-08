@@ -4,4 +4,4 @@ plotly
 Pillow==9.2.0
 pickleshare
 joblib
-scikit-learn
+scikit-learn==1.0.2 
